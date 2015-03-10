@@ -60,7 +60,7 @@ App = React.createClass({
 });
 
 var routes = (
-  <Route name="app" path="/react-router-transition" handler={App}>
+  <Route name="app" path="/react-router-transition/" handler={App}>
     <Route name="inbox" handler={Inbox} />
     <Route name="calendar" handler={Calendar} />
     <DefaultRoute handler={Dashboard} />

@@ -171,7 +171,7 @@ App = React.createClass({
 
 var routes = React.createElement(
   Route,
-  { name: "app", path: "/", handler: App },
+  { name: "app", path: "/react-router-transition/", handler: App },
   React.createElement(Route, { name: "inbox", handler: Inbox }),
   React.createElement(Route, { name: "calendar", handler: Calendar }),
   React.createElement(DefaultRoute, { handler: Dashboard })
